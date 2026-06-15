@@ -28,8 +28,7 @@ export function addBasketItem () {
         productIds.push(result[i].value)
       } else if (result[i].key === 'BasketId') {
         basketIds.push(result[i].value)
-      } else if (result[i].key === 'quantity') {
-        quantities.push(result[i].value)
+      } 
       }
     }
 
@@ -47,8 +46,7 @@ export function addBasketItem () {
       const basketItemInstance = BasketItemModel.build(basketItem)
       try {
         const addedBasketItem = await basketItemInstance.save()
-        res.json({ status: 'success', data: addedBasketItem })
-      } catch (error) {
+ {
         next(error)
       }
     }
