@@ -18,21 +18,8 @@ export const storeFixItVerdict = (challengeKey: ChallengeKey, verdict: boolean) 
   storeVerdict(challengeKey, 'fix it', verdict)
 }
 
-export const calculateFindItAccuracy = (challengeKey: ChallengeKey) => {
-  return calculateAccuracy(challengeKey, 'find it')
-}
 
-export const calculateFixItAccuracy = (challengeKey: ChallengeKey) => {
-  return calculateAccuracy(challengeKey, 'fix it')
-}
 
-export const totalFindItAccuracy = () => {
-  return totalAccuracy('find it')
-}
-
-export const totalFixItAccuracy = () => {
-  return totalAccuracy('fix it')
-}
 
 export const getFindItAttempts = (challengeKey: ChallengeKey) => {
   return solves[challengeKey] ? solves[challengeKey].attempts['find it'] : 0
