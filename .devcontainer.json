@@ -4,11 +4,6 @@
         "angular.ng-template",
         "dbaeumer.vscode-eslint",
         "stylelint.vscode-stylelint"
-    ],
-    "settings": {
-        "eslint.workingDirectories": [
-            { "mode": "auto" }
-        ]
-    },
+    ]
     "postCreateCommand": "export NG_CLI_ANALYTICS=ci && export NG_FORCE_TTY=false && npm i -g @angular/cli && npm install && unset NG_FORCE_TTY"
 }
