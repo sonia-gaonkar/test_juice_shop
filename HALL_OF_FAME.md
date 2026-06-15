@@ -25,22 +25,6 @@ As exported from
 | Yannick (yannickboy15)             | Dutch                       | 3872       |
 | NCAA                               | Danish                      | 3855       |
 | Enrique Rossel (erossel)           | Spanish                     | 3416       |
-| Simon Basset (simbas)              | French                      | 2933       |
-| MortenHC                           | Danish                      | 2597       |
-| janesmae                           | Estonian                    | 2594       |
-| Lawrence Kim (lawkim96)            | Korean                      | 2507       |
-| toshiaizawa                        | Japanese                    | 2302       |
-| mrtlgz                             | Turkish                     | 2274       |
-| schattenbaum                       | German, Switzerland; German | 2181       |
-| narges afzali (kotarou-katsura)    | Persian                     | 2164       |
-| Jean Novak (jeannovak)             | Portuguese, Brazilian       | 2151       |
-| ShahinF27                          | Azerbaijani                 | 2125       |
-| Lang Mediator (lang.mediator)      | Russian                     | 1949       |
-| htchen99                           | Chinese Traditional         | 1664       |
-| Timo Meriläinen (owasp.timo)       | Finnish                     | 1470       |
-| Herisatry Lubaba (herisatry)       | French                      | 1465       |
-| Dana-Maria Munteanu (danamunteanu) | Romanian                    | 1366       |
-| Dmitry (shipko)                    | Russian                     | 1243       |
 | Petr Gallus (PetrGallus)           | Czech                       | 1222       |
 | sjroh                              | Korean                      | 1214       |
 | owangen                            | Norwegian; Danish; Klingon  | 1139       |
