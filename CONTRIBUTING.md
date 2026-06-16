@@ -22,6 +22,22 @@ The ten minimum requirements for code contributions are:
 9. [Contributing to translations](https://pwning.owasp-juice.shop/companion-guide/latest/part3/translation.html) _should_ be done via [Crowdin](https://crowdin.com/project/owasp-juice-shop) and _not_ via GitHub PRs.
 10. Particularly low-effort contributions (e.g. incomplete typo fixes in a single file, trivial text changes, code formatting) or any forms of potential "contribution farming" _must not_ be submitted as PRs. Doing so more than once _might_ be [considered spamming and handled accordingly](https://pwning.owasp-juice.shop/companion-guide/latest/part3/contribution.html#_handling_of_spam_prs).
 
+## simpler STeps
+1. **Create your branch from `develop`, not `main`.**
+2. **Make sure your code passes ESLint/lint checks before submitting.**
+3. **Each PR should do one thing only** (one feature or one fix).
+4. **Add unit/integration tests for any code you add or change.**
+5. **Add end-to-end (E2E) tests for new or modified challenges/features.**
+6. **Remove unnecessary AI-generated comments and boilerplate before submitting.**
+7. **All GitHub checks (build, tests, lint, CI) must pass.**
+8. **Sign off every commit using:**
+   ```bash
+   git commit -s -m "Your commit message"
+   ```
+9. **Use Crowdin for translation changes, not GitHub PRs.**
+10. **Don't submit trivial or low-effort PRs** (tiny typo fixes, formatting-only changes, contribution farming, etc.).
+
+
 ### Contribution Guidelines
 
 You can find our detailed contribution guidelines over here:
