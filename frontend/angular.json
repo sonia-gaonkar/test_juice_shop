@@ -11,7 +11,7 @@
     "frontend": {
       "root": "",
       "sourceRoot": "src",
-      "projectType": "application",
+      "projectType": "application"
       "prefix": "app",
       "schematics": {},
       "architect": {
