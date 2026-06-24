@@ -40,7 +40,7 @@ export class BasketService {
     return this.http.get(`${this.host}/${id}`).pipe(map((response: any) => response.data), catchError((error) => { throw error }))
   }
 
-  put (id: number, params: any) {
+  put (id: number) {
     return this.http.put(`${this.host}/${id}`, params).pipe(map((response: any) => response.data), catchError((error) => { throw error }))
   }
 
@@ -52,7 +52,7 @@ export class BasketService {
     return this.http.post(this.host + '/', params).pipe(map((response: any) => response.data), catchError((error) => { throw error }))
   }
 
-  checkout (id?: number, couponData?: string, orderDetails?: OrderDetail) {
+  checkout (id?: number, couponData?: string) {
     return this.http.post(`${this.hostServer}/rest/basket/${id}/checkout`, { couponData, orderDetails }).pipe(map((response: any) => response.orderConfirmation), catchError((error) => { throw error }))
   }
 
