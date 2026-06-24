@@ -18,11 +18,8 @@
             <mat-cell *matCellDef="let element"> {{element.orderId }}</mat-cell>
           </ng-container>
 
-          <ng-container matColumnDef="Price">
-            <mat-header-cell *matHeaderCellDef translate="LABEL_PRICE" class="cell"></mat-header-cell>
-            <mat-cell *matCellDef="let element" class="cell"> {{element.totalPrice?.toFixed(2) }}&curren;</mat-cell>
-          </ng-container>
-
+ 
+          
           <ng-container matColumnDef="Status">
             <mat-header-cell *matHeaderCellDef translate="LABEL_STATUS" class="cell"></mat-header-cell>
             <mat-cell *matCellDef="let element" class="cell">
